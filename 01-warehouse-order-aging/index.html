@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Warehouse Order Aging | Portfolio Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<style>
+:root{color-scheme:dark;--bg:#0b1020;--panel:#121a2c;--line:#293650;--text:#eef3fb;--muted:#9aabc3;--blue:#71a7ff;--cyan:#5dd6d0;--amber:#ffbf69;--red:#ff7d83}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}.wrap{max-width:1400px;margin:auto;padding:28px}.eyebrow{color:var(--cyan);font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:11px}.head{display:flex;justify-content:space-between;gap:20px;align-items:start;margin-bottom:24px}h1{font-size:clamp(28px,4vw,42px);line-height:1.1;margin:8px 0}p{color:var(--muted);max-width:760px}.tag{border:1px solid var(--line);border-radius:99px;padding:7px 12px;color:var(--cyan);white-space:nowrap}.filters,.kpis,.charts{display:grid;gap:14px}.filters{grid-template-columns:repeat(4,minmax(0,1fr));margin:18px 0}.kpis{grid-template-columns:repeat(4,minmax(0,1fr));margin:14px 0}.charts{grid-template-columns:repeat(2,minmax(0,1fr));margin:14px 0}.panel,.metric{background:var(--panel);border:1px solid var(--line);border-radius:15px;padding:18px;min-width:0}.metric small{color:var(--muted)}.metric strong{display:block;font-size:clamp(23px,3vw,32px);margin-top:7px}.metric .sub{font-size:12px;color:var(--muted)}label{display:block;color:var(--muted);font-size:12px;margin-bottom:5px}select,input,button{background:#172238;color:var(--text);border:1px solid #364761;border-radius:8px;padding:10px;width:100%}h2{font-size:16px;margin:0 0 14px}.chart{height:260px}table{border-collapse:collapse;width:100%;font-size:12px}th,td{text-align:left;padding:9px;border-bottom:1px solid var(--line)}th{color:var(--muted)}.tablewrap{overflow:auto;max-height:370px}.note{font-size:12px;color:var(--muted)}.error{color:var(--amber);padding:12px;border:1px solid var(--line);border-radius:10px}
+@media(max-width:800px){.wrap{padding:16px}.head{display:block}.filters,.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.charts{grid-template-columns:1fr}.tag{display:inline-block;margin-top:8px}}@media(max-width:460px){.filters,.kpis{grid-template-columns:1fr 1fr}}
+</style></head>
+<body><main class="wrap">
+<header class="head"><div><div class="eyebrow">Operations analytics · Portfolio case study</div><h1>Warehouse Order Aging</h1><p>Explore shipment timeliness by warehouse zone, priority, and region. Use the filters to narrow the dataset and identify where late shipments concentrate.</p></div><span class="tag">Simulated data · 2025</span></header>
+<div id="status" class="note">Loading order data…</div>
+<section class="filters">
+<div><label for="zone">Warehouse zone</label><select id="zone"><option value="">All zones</option></select></div>
+<div><label for="priority">Priority</label><select id="priority"><option value="">All priorities</option></select></div>
+<div><label for="region">Region</label><select id="region"><option value="">All regions</option></select></div>
+<div><label for="search">Search order ID</label><input id="search" placeholder="e.g. ORD-000123"></div>
+</section>
+<section class="kpis">
+<div class="metric"><small>Orders in selection</small><strong id="total">—</strong><div class="sub">Distinct order records</div></div>
+<div class="metric"><small>Late shipments</small><strong id="late">—</strong><div class="sub">Shipped after ship-by date</div></div>
+<div class="metric"><small>Late shipment rate</small><strong id="rate">—</strong><div class="sub">Late shipments / shipped orders</div></div>
+<div class="metric"><small>Avg. time to ship</small><strong id="avg">—</strong><div class="sub">Order date to shipped date</div></div>
+</section>
+<section class="charts">
+<div class="panel"><h2>Late shipment rate by zone</h2><div class="chart"><canvas id="zoneChart"></canvas></div></div>
+<div class="panel"><h2>Weekly order volume</h2><div class="chart"><canvas id="weekChart"></canvas></div></div>
+<div class="panel"><h2>Late shipments by priority</h2><div class="chart"><canvas id="priorityChart"></canvas></div></div>
+<div class="panel"><h2>Order records</h2><div class="tablewrap"><table><thead><tr><th>Order ID</th><th>Zone</th><th>Priority</th><th>Region</th><th>Ship by</th><th>Shipped</th><th>Status</th></tr></thead><tbody id="rows"></tbody></table></div><p class="note" id="tableNote"></p></div>
+</section>
+<p class="note">Method: a shipment is classified as late when its shipped date is later than its ship-by date. Records without a shipped date are excluded from the shipped-order rate and average transit-time calculation. Dataset and results are illustrative, not real employer data.</p>
+</main>
+<script>
+const $=id=>document.getElementById(id);let all=[],charts={};
+const num=n=>new Intl.NumberFormat('en-US').format(n);
+const date=s=>s?new Date(s+'T00:00:00'):null;
+const late=r=>!!(r.shipped_date&&r.ship_by_date&&r.shipped_date>r.ship_by_date);
+const days=(a,b)=>{const x=date(a),y=date(b);return x&&y?(y-x)/86400000:null};
+function fillSelect(id,field){const el=$(id),vals=[...new Set(all.map(r=>r[field]).filter(Boolean))].sort();el.innerHTML='<option value="">All '+(id==='zone'?'zones':id==='priority'?'priorities':'regions')+'</option>'+vals.map(v=>'<option>'+String(v).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))+'</option>').join('')}
+function filtered(){const z=$('zone').value,p=$('priority').value,g=$('region').value,s=$('search').value.trim().toLowerCase();return all.filter(r=>(!z||r.zone===z)&&(!p||r.priority===p)&&(!g||r.region===g)&&(!s||r.order_id.toLowerCase().includes(s)))}
+function chart(id,type,labels,data,label){if(charts[id])charts[id].destroy();charts[id]=new Chart($(id),{type,data:{labels,datasets:[{label,data,backgroundColor:type==='line'?'rgba(113,167,255,.15)':'rgba(93,214,208,.78)',borderColor:'#71a7ff',borderWidth:2,fill:type==='line',tension:.25}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{ticks:{color:'#9aabc3'},grid:{color:'rgba(41,54,80,.45)'}},y:{beginAtZero:true,ticks:{color:'#9aabc3'},grid:{color:'rgba(41,54,80,.45)'}}}}})}
+function render(){const rows=filtered(),shipped=rows.filter(r=>r.shipped_date),lateRows=shipped.filter(late),rate=shipped.length?lateRows.length/shipped.length:0,transit=shipped.map(r=>days(r.order_date,r.shipped_date)).filter(n=>n!==null&&n>=0);$('total').textContent=num(rows.length);$('late').textContent=num(lateRows.length);$('rate').textContent=(rate*100).toFixed(1)+'%';$('avg').textContent=transit.length?(transit.reduce((a,b)=>a+b,0)/transit.length).toFixed(2)+' days':'—';
+const zones=[...new Set(rows.map(r=>r.zone).filter(Boolean))].sort();chart('zoneChart','bar',zones,zones.map(z=>{const a=rows.filter(r=>r.zone===z&&r.shipped_date);return a.length?+(a.filter(late).length/a.length*100).toFixed(1):0}),'Late rate (%)');
+const weeks={};rows.forEach(r=>{if(!r.order_date)return;const d=date(r.order_date);d.setDate(d.getDate()-((d.getDay()+6)%7));const k=d.toISOString().slice(0,10);weeks[k]=(weeks[k]||0)+1});const wk=Object.keys(weeks).sort();chart('weekChart','line',wk.map(x=>x.slice(5)),wk.map(x=>weeks[x]),'Orders');
+const priorities=[...new Set(rows.map(r=>r.priority).filter(Boolean))].sort();chart('priorityChart','bar',priorities,priorities.map(p=>rows.filter(r=>r.priority===p&&r.shipped_date&&late(r)).length),'Late shipments');
+const show=rows.slice(0,100);$('rows').innerHTML=show.map(r=>'<tr><td>'+r.order_id+'</td><td>'+r.zone+'</td><td>'+r.priority+'</td><td>'+r.region+'</td><td>'+r.ship_by_date+'</td><td>'+r.shipped_date+'</td><td>'+(r.shipped_date?(late(r)?'Late':'On time'):'Not shipped')+'</td></tr>').join('');$('tableNote').textContent='Showing '+num(show.length)+' of '+num(rows.length)+' matching orders.'}
+['zone','priority','region','search'].forEach(id=>$(id).addEventListener('input',render));
+Papa.parse('data/orders.csv',{download:true,header:true,skipEmptyLines:true,complete:r=>{all=r.data.filter(x=>x.order_id);if(!all.length){$('status').innerHTML='<div class="error">No order records found. Check that data/orders.csv is present.</div>';return}['zone','priority','region'].forEach((id,i)=>fillSelect(id,['zone','priority','region'][i]));$('status').textContent='Loaded '+num(all.length)+' order records from data/orders.csv.';render()},error:e=>{$('status').innerHTML='<div class="error">Could not load data/orders.csv. Make sure the CSV is committed to the data folder and open this page through GitHub Pages, not as a local file.</div>'}});
+</script></body></html>

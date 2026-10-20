@@ -1,56 +1,29 @@
 # Data Analyst Portfolio
 
-**Brian Zucker** | Google Data Analytics Certified | Webster, NY
-
-I come from warehouse, inventory, and delivery operations, and I am moving into data analytics.
-These projects take problems I know from that work (late orders, count accuracy, lot dwell time)
-and analyze them end to end: generate or load the data, query it in SQL, analyze it in Python,
-chart it, and write up what to do about it.
-
-> **About the data:** All three datasets are synthetic. I generated them with seeded scripts in
-> each project folder, because real company data is not public. Patterns were built into the generators, so each analysis demonstrates method
-> and reporting, not facts about a real operation. Every README says so and lists its limitations.
+Portfolio case studies using SQL, Python, CSV datasets, and interactive visualization.
 
 ## Projects
 
-| Project | Business question | Headline result |
-|---|---|---|
-| [01 Warehouse Order Aging](01-warehouse-order-aging/) | Which orders ship late, and where should a manager act first? | Frozen was 15% of orders but 74% of late shipments. Friday orders were late 19.5% of the time. |
-| [02 Cycle Count Accuracy](02-cycle-count-accuracy/) | Where is the inventory record wrong, and what does it cost? | Shrink was 2.7 times overage. The top 10% of SKUs held 69% of dollar variance. Night shift was least accurate. |
-| [03 Vehicle Lot Dwell Time](03-vehicle-lot-dwell-time/) | What makes vehicles sit longer, and how much lot space does it use? | Third-party vehicles dwelled about twice as long as hauler vehicles, tying up roughly 23 lot spaces. |
+### 01 · Warehouse Order Aging
+Explore shipment timeliness by zone, priority, and region in the [interactive dashboard](./01-warehouse-order-aging/index.html). The dashboard is designed for GitHub Pages and reads its data from the project's `data/orders.csv` file.
 
-## Skills shown
+- [Project overview and findings](./01-warehouse-order-aging/README.md)
+- [SQL queries](./01-warehouse-order-aging/queries.sql)
+- [Python analysis](./01-warehouse-order-aging/analysis.py)
+- [Results summary](./01-warehouse-order-aging/results.md)
 
-- **SQL (SQLite):** joins, CTEs, recursive CTEs, window functions (`ROW_NUMBER`, `NTILE`,
-  `COUNT OVER`), conditional aggregation, date handling, calculating a median without a built-in
-  function.
-- **Python:** pandas for loading and reshaping data, matplotlib for charts, a seeded simulation
-  to build realistic datasets, scripts that rerun from scratch.
-- **Analysis habits:** checking a likely explanation and ruling it out (month-end volume), testing
-  that a result holds inside subgroups (shift effect by category, damage effect by source),
-  handling vehicles that have not left the lot yet, and stating limitations.
-- **Communication:** each project ends with recommendations a manager could act on.
+### 02 · Cycle Count Accuracy
+- [Dataset](./02-cycle-count-accuracy/data/cycle_counts.csv)
+- [SKU reference data](./02-cycle-count-accuracy/data/skus.csv)
 
-## Repository layout
+### 03 · Vehicle Lot Dwell Time
+- [Vehicle dataset](./03-vehicle-lot-dwell-time/data/vehicles.csv)
+- [Daily lot inventory chart](./03-vehicle-lot-dwell-time/charts/daily_lot_inventory.png)
 
-```
-01-warehouse-order-aging/    generate_data.py, queries.sql, analysis.py, results.md, charts/, data/
-02-cycle-count-accuracy/     same structure
-03-vehicle-lot-dwell-time/   same structure
-requirements.txt
-```
+## Run and publish
 
-## Run any project
+The Warehouse Order Aging dashboard is a static HTML page. To publish it, enable GitHub Pages for the repository using the `main` branch and `/(root)` as the source. Then open the project dashboard URL.
 
-```
-pip install -r requirements.txt
-cd 01-warehouse-order-aging
-python generate_data.py
-python analysis.py
-```
+## Data note
 
-Tested with Python 3.13. The data scripts use fixed seeds, so results are identical on every run.
-
-## Contact
-
-Brian.copy@proton.me | [LinkedIn](https://www.linkedin.com/in/brian-zucker-3b8767443/)
+These are simulated portfolio datasets. Findings illustrate analytical methods and should not be presented as results from a real employer.
