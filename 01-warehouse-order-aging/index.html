@@ -31,6 +31,15 @@
 <div class="panel"><h2>Late shipments by priority</h2><div class="chart"><canvas id="priorityChart"></canvas></div></div>
 <div class="panel"><h2>Order records</h2><div class="tablewrap"><table><thead><tr><th>Order ID</th><th>Zone</th><th>Priority</th><th>Region</th><th>Ship by</th><th>Shipped</th><th>Status</th></tr></thead><tbody id="rows"></tbody></table></div><p class="note" id="tableNote"></p></div>
 </section>
+<section class="panel" style="margin:14px 0">
+<h2>Business findings &amp; recommended actions</h2>
+<p><strong>1. Prioritize the Frozen zone.</strong> Frozen has a 31.7% late-shipment rate (1,027 of 3,239 shipped orders) and accounts for about 74% of all late shipments. Review its order queue, staging process, cutoff times, and staffing by shift before expanding capacity.</p>
+<p><strong>2. Investigate the Friday handoff.</strong> Friday orders have the highest late rate at 19.5%, followed by Saturday at 10.9%. Compare order cutoffs, weekend staffing, and promised ship-by dates to determine whether orders are waiting through the weekend.</p>
+<p><strong>3. Protect the standard service level.</strong> Standard orders are 7.6% late, compared with 0% for expedited orders in this simulated dataset. Check whether the two service levels use different queue rules or processing targets, and validate that the difference is operationally sustainable.</p>
+<p><strong>4. Monitor weekly changes.</strong> The historical weekly late rate ranged from 0% to 15.4%, with several weeks around 10% to 13% in May and early June. Set a weekly review threshold, investigate sustained increases, and compare the pattern with staffing, volume, and cutoff changes.</p>
+<p><strong>Suggested first step:</strong> run a focused Frozen-zone and Friday-order review, then track late rate and same-day shipping weekly to see whether changes improve performance.</p>
+<p class="note">These are hypotheses and recommendations based on simulated data, not proof of the cause of delays. The dataset does not contain staffing hours or direct capacity measures.</p>
+</section>
 <p class="note">Method: a shipment is classified as late when its shipped date is later than its ship-by date. Records without a shipped date are excluded from the shipped-order rate and average transit-time calculation. Dataset and results are illustrative, not real employer data.</p>
 </main>
 <script>
