@@ -1,0 +1,1201 @@
+sku,category,abc_class,unit_cost
+SKU-0001,Dairy,C,3.92
+SKU-0002,Dry Goods,B,2.44
+SKU-0003,Dry Goods,C,3.13
+SKU-0004,Produce,B,3.59
+SKU-0005,Dry Goods,B,3.94
+SKU-0006,Produce,C,2.39
+SKU-0007,Dairy,C,1.79
+SKU-0008,Dry Goods,C,4.58
+SKU-0009,Dry Goods,C,1.14
+SKU-0010,Household,C,9.52
+SKU-0011,Produce,B,3.23
+SKU-0012,Dry Goods,C,6.8
+SKU-0013,Beverages,A,9.34
+SKU-0014,Dry Goods,B,4.23
+SKU-0015,Produce,C,3.12
+SKU-0016,Frozen,A,11.53
+SKU-0017,Produce,C,8.16
+SKU-0018,Dairy,A,4.67
+SKU-0019,Beverages,A,8.44
+SKU-0020,Beverages,C,12.32
+SKU-0021,Dairy,C,3.57
+SKU-0022,Dry Goods,B,2.99
+SKU-0023,Beverages,A,10.64
+SKU-0024,Dry Goods,C,5.53
+SKU-0025,Household,C,8.57
+SKU-0026,Household,C,7.64
+SKU-0027,Produce,A,6.43
+SKU-0028,Household,C,10.74
+SKU-0029,Household,C,5.16
+SKU-0030,Beverages,B,10.75
+SKU-0031,Dry Goods,C,5.59
+SKU-0032,Produce,B,2.99
+SKU-0033,Dry Goods,B,4.76
+SKU-0034,Dry Goods,C,3.44
+SKU-0035,Beverages,C,18.43
+SKU-0036,Beverages,C,6.65
+SKU-0037,Beverages,C,5.41
+SKU-0038,Household,A,5.37
+SKU-0039,Dry Goods,C,2.36
+SKU-0040,Dry Goods,B,6.5
+SKU-0041,Dry Goods,C,2.98
+SKU-0042,Produce,C,1.7
+SKU-0043,Dry Goods,B,6.11
+SKU-0044,Beverages,C,3.93
+SKU-0045,Beverages,B,2.78
+SKU-0046,Beverages,C,5.81
+SKU-0047,Produce,C,1.84
+SKU-0048,Dairy,B,4.39
+SKU-0049,Beverages,C,3.17
+SKU-0050,Beverages,C,9.73
+SKU-0051,Dry Goods,C,3.4
+SKU-0052,Frozen,C,15.54
+SKU-0053,Beverages,B,3.01
+SKU-0054,Dry Goods,B,2.86
+SKU-0055,Household,A,6.15
+SKU-0056,Produce,C,2.7
+SKU-0057,Beverages,C,8.66
+SKU-0058,Dairy,C,3.09
+SKU-0059,Dry Goods,B,3.72
+SKU-0060,Frozen,C,14.62
+SKU-0061,Household,C,8.85
+SKU-0062,Produce,C,4.11
+SKU-0063,Dry Goods,A,4.04
+SKU-0064,Dry Goods,A,4.84
+SKU-0065,Dry Goods,C,6.43
+SKU-0066,Dairy,A,5.9
+SKU-0067,Household,C,14.27
+SKU-0068,Dairy,C,2.41
+SKU-0069,Produce,A,4.64
+SKU-0070,Household,C,5.08
+SKU-0071,Beverages,B,3.61
+SKU-0072,Dairy,C,1.98
+SKU-0073,Household,C,9.2
+SKU-0074,Frozen,C,4.88
+SKU-0075,Produce,C,1.85
+SKU-0076,Dry Goods,C,3.88
+SKU-0077,Household,C,6.48
+SKU-0078,Frozen,C,8.27
+SKU-0079,Dry Goods,A,4.74
+SKU-0080,Dry Goods,C,6.24
+SKU-0081,Beverages,B,2.91
+SKU-0082,Dairy,A,4.32
+SKU-0083,Dry Goods,C,7.12
+SKU-0084,Beverages,B,4.24
+SKU-0085,Dry Goods,B,2.84
+SKU-0086,Beverages,A,6.14
+SKU-0087,Produce,B,5.28
+SKU-0088,Frozen,A,7.3
+SKU-0089,Dry Goods,A,5.27
+SKU-0090,Dry Goods,B,5.16
+SKU-0091,Dairy,A,2.38
+SKU-0092,Household,B,4.64
+SKU-0093,Dry Goods,C,3.17
+SKU-0094,Household,C,2.44
+SKU-0095,Dry Goods,C,4.17
+SKU-0096,Dry Goods,B,3.66
+SKU-0097,Frozen,C,7.48
+SKU-0098,Dry Goods,C,3.29
+SKU-0099,Frozen,C,12.15
+SKU-0100,Household,C,9.51
+SKU-0101,Dairy,A,4.06
+SKU-0102,Frozen,C,9.9
+SKU-0103,Beverages,B,4.37
+SKU-0104,Household,C,9.31
+SKU-0105,Produce,C,2.9
+SKU-0106,Household,C,8.03
+SKU-0107,Dry Goods,C,1.8
+SKU-0108,Dry Goods,C,6.23
+SKU-0109,Household,A,4.53
+SKU-0110,Household,A,12.17
+SKU-0111,Produce,B,3.0
+SKU-0112,Dry Goods,C,10.96
+SKU-0113,Frozen,A,4.45
+SKU-0114,Dry Goods,B,2.3
+SKU-0115,Frozen,B,12.88
+SKU-0116,Household,C,11.87
+SKU-0117,Dry Goods,B,2.97
+SKU-0118,Dry Goods,A,4.08
+SKU-0119,Dry Goods,A,2.5
+SKU-0120,Produce,A,3.47
+SKU-0121,Dry Goods,C,4.64
+SKU-0122,Produce,C,3.33
+SKU-0123,Beverages,C,15.29
+SKU-0124,Dry Goods,A,1.72
+SKU-0125,Household,C,4.45
+SKU-0126,Household,B,8.35
+SKU-0127,Produce,C,2.14
+SKU-0128,Beverages,C,6.69
+SKU-0129,Dry Goods,B,3.89
+SKU-0130,Frozen,C,7.95
+SKU-0131,Frozen,C,12.76
+SKU-0132,Frozen,B,9.7
+SKU-0133,Frozen,A,6.33
+SKU-0134,Dairy,B,6.69
+SKU-0135,Dry Goods,C,6.6
+SKU-0136,Household,C,9.82
+SKU-0137,Beverages,C,10.04
+SKU-0138,Dairy,C,2.83
+SKU-0139,Beverages,C,2.32
+SKU-0140,Beverages,C,11.75
+SKU-0141,Produce,C,1.71
+SKU-0142,Frozen,A,16.59
+SKU-0143,Produce,B,1.3
+SKU-0144,Produce,C,1.6
+SKU-0145,Produce,C,1.78
+SKU-0146,Dry Goods,B,3.9
+SKU-0147,Produce,A,2.58
+SKU-0148,Dry Goods,A,3.9
+SKU-0149,Dry Goods,B,4.01
+SKU-0150,Frozen,C,11.49
+SKU-0151,Produce,C,2.03
+SKU-0152,Dairy,C,3.09
+SKU-0153,Produce,B,4.06
+SKU-0154,Beverages,B,5.7
+SKU-0155,Produce,B,1.91
+SKU-0156,Beverages,C,8.31
+SKU-0157,Beverages,C,5.82
+SKU-0158,Household,C,5.22
+SKU-0159,Dairy,C,5.44
+SKU-0160,Beverages,A,8.03
+SKU-0161,Beverages,B,3.69
+SKU-0162,Beverages,B,15.22
+SKU-0163,Household,C,8.86
+SKU-0164,Dry Goods,C,10.39
+SKU-0165,Frozen,A,4.52
+SKU-0166,Dry Goods,B,6.03
+SKU-0167,Household,B,7.54
+SKU-0168,Beverages,B,7.81
+SKU-0169,Dry Goods,B,2.33
+SKU-0170,Frozen,A,4.6
+SKU-0171,Frozen,B,6.14
+SKU-0172,Frozen,B,6.16
+SKU-0173,Beverages,C,5.73
+SKU-0174,Produce,C,2.94
+SKU-0175,Dry Goods,C,3.74
+SKU-0176,Beverages,B,4.43
+SKU-0177,Beverages,C,3.56
+SKU-0178,Dry Goods,A,4.53
+SKU-0179,Frozen,B,4.67
+SKU-0180,Dairy,C,5.06
+SKU-0181,Frozen,B,7.76
+SKU-0182,Beverages,B,5.18
+SKU-0183,Beverages,C,6.47
+SKU-0184,Dry Goods,A,3.32
+SKU-0185,Household,A,6.83
+SKU-0186,Dry Goods,B,4.5
+SKU-0187,Beverages,A,5.59
+SKU-0188,Frozen,A,3.26
+SKU-0189,Beverages,B,6.91
+SKU-0190,Dry Goods,C,3.51
+SKU-0191,Dairy,A,4.99
+SKU-0192,Dairy,C,8.08
+SKU-0193,Household,C,4.13
+SKU-0194,Beverages,A,1.69
+SKU-0195,Household,C,4.71
+SKU-0196,Dairy,C,3.74
+SKU-0197,Household,C,19.97
+SKU-0198,Produce,A,1.6
+SKU-0199,Frozen,B,9.14
+SKU-0200,Frozen,B,5.1
+SKU-0201,Dry Goods,A,5.36
+SKU-0202,Beverages,C,5.14
+SKU-0203,Household,C,3.96
+SKU-0204,Beverages,A,7.0
+SKU-0205,Dry Goods,A,2.96
+SKU-0206,Frozen,B,6.34
+SKU-0207,Household,B,6.66
+SKU-0208,Dry Goods,C,1.01
+SKU-0209,Produce,A,4.22
+SKU-0210,Household,A,10.52
+SKU-0211,Frozen,C,5.73
+SKU-0212,Dairy,B,11.97
+SKU-0213,Beverages,C,6.63
+SKU-0214,Frozen,B,15.64
+SKU-0215,Frozen,B,6.79
+SKU-0216,Household,C,4.23
+SKU-0217,Frozen,B,5.4
+SKU-0218,Household,B,11.52
+SKU-0219,Beverages,A,10.04
+SKU-0220,Dry Goods,A,2.54
+SKU-0221,Produce,B,2.11
+SKU-0222,Household,B,5.67
+SKU-0223,Produce,A,4.74
+SKU-0224,Frozen,A,13.74
+SKU-0225,Household,C,9.29
+SKU-0226,Produce,B,2.82
+SKU-0227,Dry Goods,B,5.01
+SKU-0228,Produce,B,1.46
+SKU-0229,Beverages,A,5.59
+SKU-0230,Dry Goods,A,3.38
+SKU-0231,Household,C,7.51
+SKU-0232,Beverages,C,5.92
+SKU-0233,Dairy,C,4.03
+SKU-0234,Dry Goods,C,2.38
+SKU-0235,Dry Goods,C,6.45
+SKU-0236,Dry Goods,C,11.19
+SKU-0237,Beverages,B,11.0
+SKU-0238,Produce,C,2.33
+SKU-0239,Dry Goods,C,5.31
+SKU-0240,Dry Goods,B,2.79
+SKU-0241,Household,C,11.18
+SKU-0242,Beverages,A,2.58
+SKU-0243,Household,A,7.63
+SKU-0244,Produce,C,0.95
+SKU-0245,Beverages,A,10.46
+SKU-0246,Household,C,3.65
+SKU-0247,Frozen,B,5.84
+SKU-0248,Dry Goods,C,4.75
+SKU-0249,Beverages,C,5.68
+SKU-0250,Dry Goods,A,3.05
+SKU-0251,Dry Goods,B,3.94
+SKU-0252,Produce,B,5.81
+SKU-0253,Beverages,A,12.34
+SKU-0254,Frozen,B,6.48
+SKU-0255,Frozen,B,7.19
+SKU-0256,Household,B,28.15
+SKU-0257,Dry Goods,A,5.22
+SKU-0258,Dairy,C,4.06
+SKU-0259,Frozen,B,7.97
+SKU-0260,Household,C,9.38
+SKU-0261,Household,A,3.39
+SKU-0262,Beverages,C,8.36
+SKU-0263,Household,C,4.1
+SKU-0264,Produce,B,2.15
+SKU-0265,Frozen,C,2.66
+SKU-0266,Dry Goods,C,2.89
+SKU-0267,Frozen,C,16.58
+SKU-0268,Dry Goods,B,2.74
+SKU-0269,Household,B,11.19
+SKU-0270,Beverages,B,5.85
+SKU-0271,Produce,B,2.84
+SKU-0272,Beverages,A,8.23
+SKU-0273,Frozen,C,9.28
+SKU-0274,Frozen,B,3.62
+SKU-0275,Dry Goods,B,4.44
+SKU-0276,Beverages,B,6.32
+SKU-0277,Dry Goods,A,3.48
+SKU-0278,Frozen,B,7.85
+SKU-0279,Dry Goods,B,2.78
+SKU-0280,Dry Goods,B,14.47
+SKU-0281,Dairy,A,2.96
+SKU-0282,Dry Goods,C,3.14
+SKU-0283,Dry Goods,B,2.48
+SKU-0284,Beverages,C,2.91
+SKU-0285,Household,A,8.2
+SKU-0286,Dairy,C,6.71
+SKU-0287,Beverages,A,3.85
+SKU-0288,Produce,A,1.67
+SKU-0289,Beverages,A,6.7
+SKU-0290,Household,B,14.39
+SKU-0291,Frozen,A,26.0
+SKU-0292,Household,C,8.63
+SKU-0293,Dry Goods,B,3.13
+SKU-0294,Dry Goods,A,4.03
+SKU-0295,Dairy,A,5.27
+SKU-0296,Household,B,13.89
+SKU-0297,Dry Goods,C,4.54
+SKU-0298,Produce,C,1.89
+SKU-0299,Dry Goods,C,5.8
+SKU-0300,Frozen,C,6.53
+SKU-0301,Dry Goods,C,2.26
+SKU-0302,Dry Goods,C,2.47
+SKU-0303,Frozen,B,4.39
+SKU-0304,Dry Goods,C,7.05
+SKU-0305,Dry Goods,C,3.58
+SKU-0306,Beverages,C,6.31
+SKU-0307,Beverages,A,10.17
+SKU-0308,Produce,C,3.29
+SKU-0309,Beverages,B,8.67
+SKU-0310,Produce,A,2.31
+SKU-0311,Household,C,12.77
+SKU-0312,Produce,C,5.04
+SKU-0313,Household,C,8.19
+SKU-0314,Household,C,16.33
+SKU-0315,Produce,B,5.63
+SKU-0316,Dry Goods,C,3.34
+SKU-0317,Produce,C,2.42
+SKU-0318,Dry Goods,B,2.9
+SKU-0319,Dry Goods,B,3.06
+SKU-0320,Produce,B,3.05
+SKU-0321,Beverages,C,10.47
+SKU-0322,Household,C,16.41
+SKU-0323,Produce,C,1.99
+SKU-0324,Frozen,B,18.97
+SKU-0325,Beverages,C,3.7
+SKU-0326,Dry Goods,C,5.78
+SKU-0327,Beverages,B,8.32
+SKU-0328,Dry Goods,C,1.29
+SKU-0329,Dairy,C,7.27
+SKU-0330,Household,C,10.85
+SKU-0331,Household,B,4.11
+SKU-0332,Household,C,8.33
+SKU-0333,Dry Goods,C,6.75
+SKU-0334,Dry Goods,A,5.33
+SKU-0335,Household,A,7.97
+SKU-0336,Dry Goods,A,2.55
+SKU-0337,Dairy,B,5.67
+SKU-0338,Dry Goods,C,4.87
+SKU-0339,Beverages,B,7.22
+SKU-0340,Dry Goods,C,2.87
+SKU-0341,Household,B,9.28
+SKU-0342,Household,C,3.64
+SKU-0343,Dry Goods,C,4.82
+SKU-0344,Beverages,C,5.38
+SKU-0345,Dry Goods,B,1.67
+SKU-0346,Produce,C,1.85
+SKU-0347,Dry Goods,C,5.54
+SKU-0348,Produce,A,2.56
+SKU-0349,Dairy,B,10.83
+SKU-0350,Beverages,C,3.69
+SKU-0351,Produce,C,4.55
+SKU-0352,Dry Goods,C,1.48
+SKU-0353,Beverages,B,5.03
+SKU-0354,Dry Goods,C,2.01
+SKU-0355,Produce,C,5.32
+SKU-0356,Produce,B,2.45
+SKU-0357,Beverages,C,4.25
+SKU-0358,Household,C,7.47
+SKU-0359,Household,C,6.35
+SKU-0360,Produce,A,2.19
+SKU-0361,Dry Goods,B,7.19
+SKU-0362,Dairy,C,8.03
+SKU-0363,Beverages,C,5.68
+SKU-0364,Beverages,C,1.8
+SKU-0365,Household,C,8.03
+SKU-0366,Frozen,B,6.74
+SKU-0367,Dry Goods,A,4.0
+SKU-0368,Beverages,A,6.7
+SKU-0369,Beverages,C,8.92
+SKU-0370,Household,A,24.96
+SKU-0371,Household,B,10.47
+SKU-0372,Dry Goods,C,2.21
+SKU-0373,Household,C,6.87
+SKU-0374,Dry Goods,C,5.81
+SKU-0375,Dry Goods,B,2.19
+SKU-0376,Dairy,C,4.11
+SKU-0377,Dry Goods,B,5.15
+SKU-0378,Produce,C,2.81
+SKU-0379,Dairy,B,2.62
+SKU-0380,Produce,C,2.06
+SKU-0381,Dry Goods,B,4.33
+SKU-0382,Dairy,C,3.04
+SKU-0383,Beverages,B,2.2
+SKU-0384,Household,C,12.44
+SKU-0385,Frozen,B,18.25
+SKU-0386,Beverages,A,4.65
+SKU-0387,Beverages,C,11.47
+SKU-0388,Produce,A,4.08
+SKU-0389,Dry Goods,C,4.11
+SKU-0390,Beverages,A,6.3
+SKU-0391,Produce,A,1.43
+SKU-0392,Dry Goods,B,3.68
+SKU-0393,Household,C,7.04
+SKU-0394,Produce,B,1.89
+SKU-0395,Dry Goods,C,2.41
+SKU-0396,Beverages,B,7.72
+SKU-0397,Beverages,C,2.42
+SKU-0398,Dry Goods,A,1.34
+SKU-0399,Beverages,C,4.98
+SKU-0400,Household,B,8.98
+SKU-0401,Beverages,C,5.57
+SKU-0402,Dry Goods,C,4.48
+SKU-0403,Household,C,7.02
+SKU-0404,Household,B,15.89
+SKU-0405,Frozen,A,6.87
+SKU-0406,Household,C,9.99
+SKU-0407,Household,B,3.77
+SKU-0408,Beverages,A,9.36
+SKU-0409,Dry Goods,A,3.64
+SKU-0410,Dairy,C,3.98
+SKU-0411,Dry Goods,B,3.61
+SKU-0412,Produce,C,1.95
+SKU-0413,Dairy,A,8.64
+SKU-0414,Household,A,12.48
+SKU-0415,Dry Goods,C,2.85
+SKU-0416,Beverages,C,8.26
+SKU-0417,Household,C,16.28
+SKU-0418,Dry Goods,C,1.86
+SKU-0419,Dry Goods,C,3.3
+SKU-0420,Beverages,C,3.78
+SKU-0421,Household,C,10.04
+SKU-0422,Frozen,B,8.89
+SKU-0423,Beverages,B,4.78
+SKU-0424,Dry Goods,A,7.26
+SKU-0425,Beverages,C,16.54
+SKU-0426,Beverages,C,6.76
+SKU-0427,Beverages,C,8.91
+SKU-0428,Dairy,C,4.92
+SKU-0429,Household,C,10.62
+SKU-0430,Dairy,C,3.16
+SKU-0431,Frozen,B,7.04
+SKU-0432,Frozen,B,14.13
+SKU-0433,Frozen,C,5.73
+SKU-0434,Beverages,C,12.07
+SKU-0435,Dairy,C,9.61
+SKU-0436,Beverages,B,3.33
+SKU-0437,Produce,C,1.96
+SKU-0438,Dry Goods,C,9.43
+SKU-0439,Household,C,8.14
+SKU-0440,Frozen,B,5.75
+SKU-0441,Beverages,B,2.56
+SKU-0442,Produce,C,3.29
+SKU-0443,Dairy,B,6.62
+SKU-0444,Beverages,C,4.44
+SKU-0445,Produce,A,0.82
+SKU-0446,Dry Goods,B,8.7
+SKU-0447,Dairy,C,2.22
+SKU-0448,Dry Goods,C,4.06
+SKU-0449,Household,A,14.0
+SKU-0450,Produce,A,5.64
+SKU-0451,Dry Goods,C,7.8
+SKU-0452,Beverages,C,6.9
+SKU-0453,Produce,B,3.64
+SKU-0454,Household,C,9.28
+SKU-0455,Beverages,C,3.19
+SKU-0456,Dairy,C,2.29
+SKU-0457,Frozen,C,9.2
+SKU-0458,Beverages,C,4.27
+SKU-0459,Beverages,B,5.1
+SKU-0460,Frozen,B,4.21
+SKU-0461,Dry Goods,C,4.66
+SKU-0462,Produce,A,3.92
+SKU-0463,Frozen,A,10.24
+SKU-0464,Produce,B,2.57
+SKU-0465,Frozen,C,2.57
+SKU-0466,Dairy,A,9.92
+SKU-0467,Frozen,C,4.27
+SKU-0468,Household,B,14.71
+SKU-0469,Produce,B,4.1
+SKU-0470,Dry Goods,B,16.46
+SKU-0471,Beverages,C,3.8
+SKU-0472,Frozen,C,16.32
+SKU-0473,Produce,A,2.75
+SKU-0474,Household,A,9.42
+SKU-0475,Household,C,8.52
+SKU-0476,Beverages,B,5.87
+SKU-0477,Dry Goods,B,3.38
+SKU-0478,Household,B,7.83
+SKU-0479,Household,A,20.36
+SKU-0480,Household,C,5.75
+SKU-0481,Dry Goods,A,8.28
+SKU-0482,Beverages,B,4.19
+SKU-0483,Produce,C,4.27
+SKU-0484,Dry Goods,C,4.63
+SKU-0485,Dry Goods,C,2.99
+SKU-0486,Dry Goods,A,3.21
+SKU-0487,Produce,A,1.86
+SKU-0488,Dry Goods,C,1.97
+SKU-0489,Produce,B,4.36
+SKU-0490,Household,C,7.56
+SKU-0491,Produce,B,6.35
+SKU-0492,Dry Goods,B,15.05
+SKU-0493,Frozen,C,8.16
+SKU-0494,Beverages,B,2.86
+SKU-0495,Beverages,B,6.71
+SKU-0496,Dry Goods,B,12.95
+SKU-0497,Dairy,C,1.73
+SKU-0498,Dry Goods,A,2.5
+SKU-0499,Beverages,C,3.56
+SKU-0500,Frozen,A,5.88
+SKU-0501,Frozen,C,5.62
+SKU-0502,Beverages,B,5.71
+SKU-0503,Household,B,13.72
+SKU-0504,Dry Goods,A,2.61
+SKU-0505,Dairy,C,2.86
+SKU-0506,Beverages,C,4.85
+SKU-0507,Dry Goods,B,3.62
+SKU-0508,Frozen,B,9.66
+SKU-0509,Household,B,18.95
+SKU-0510,Produce,A,11.6
+SKU-0511,Dry Goods,A,9.35
+SKU-0512,Beverages,B,11.38
+SKU-0513,Frozen,A,4.81
+SKU-0514,Frozen,C,6.97
+SKU-0515,Dry Goods,C,1.94
+SKU-0516,Household,C,13.05
+SKU-0517,Dry Goods,C,5.3
+SKU-0518,Dairy,C,6.58
+SKU-0519,Household,B,14.99
+SKU-0520,Produce,B,6.06
+SKU-0521,Beverages,C,12.71
+SKU-0522,Dry Goods,A,4.24
+SKU-0523,Produce,C,1.88
+SKU-0524,Household,C,12.69
+SKU-0525,Dry Goods,B,3.99
+SKU-0526,Household,B,19.85
+SKU-0527,Beverages,B,12.58
+SKU-0528,Dry Goods,B,4.72
+SKU-0529,Household,C,16.93
+SKU-0530,Dry Goods,C,4.1
+SKU-0531,Produce,A,8.1
+SKU-0532,Beverages,B,3.35
+SKU-0533,Beverages,B,8.34
+SKU-0534,Beverages,B,6.07
+SKU-0535,Dairy,B,6.79
+SKU-0536,Frozen,C,14.03
+SKU-0537,Frozen,C,22.4
+SKU-0538,Frozen,C,10.93
+SKU-0539,Dry Goods,C,4.15
+SKU-0540,Dry Goods,A,3.66
+SKU-0541,Dry Goods,C,1.72
+SKU-0542,Frozen,A,7.9
+SKU-0543,Household,A,4.82
+SKU-0544,Dry Goods,B,2.8
+SKU-0545,Produce,B,2.46
+SKU-0546,Produce,C,5.14
+SKU-0547,Frozen,C,4.47
+SKU-0548,Dry Goods,C,2.6
+SKU-0549,Dry Goods,B,4.26
+SKU-0550,Produce,B,3.21
+SKU-0551,Beverages,C,4.33
+SKU-0552,Dry Goods,B,2.5
+SKU-0553,Dry Goods,C,2.63
+SKU-0554,Produce,B,2.33
+SKU-0555,Household,C,5.92
+SKU-0556,Beverages,B,4.89
+SKU-0557,Dairy,C,4.14
+SKU-0558,Dairy,A,12.59
+SKU-0559,Produce,C,3.45
+SKU-0560,Beverages,C,5.63
+SKU-0561,Dry Goods,B,1.36
+SKU-0562,Dry Goods,A,3.21
+SKU-0563,Dairy,A,5.52
+SKU-0564,Dry Goods,C,4.63
+SKU-0565,Household,B,6.75
+SKU-0566,Household,B,16.24
+SKU-0567,Dairy,B,6.86
+SKU-0568,Frozen,B,3.6
+SKU-0569,Produce,B,2.44
+SKU-0570,Dry Goods,B,4.2
+SKU-0571,Dry Goods,C,1.97
+SKU-0572,Dry Goods,C,2.24
+SKU-0573,Dry Goods,B,3.98
+SKU-0574,Dairy,C,2.74
+SKU-0575,Beverages,B,7.51
+SKU-0576,Dry Goods,C,3.14
+SKU-0577,Dry Goods,C,6.7
+SKU-0578,Dry Goods,C,4.28
+SKU-0579,Dairy,A,4.28
+SKU-0580,Dry Goods,B,4.18
+SKU-0581,Household,C,13.28
+SKU-0582,Dry Goods,A,4.76
+SKU-0583,Dry Goods,C,3.8
+SKU-0584,Beverages,B,6.28
+SKU-0585,Produce,A,2.15
+SKU-0586,Frozen,B,10.6
+SKU-0587,Frozen,B,4.72
+SKU-0588,Household,C,5.94
+SKU-0589,Household,C,5.4
+SKU-0590,Dry Goods,C,2.81
+SKU-0591,Dry Goods,C,6.96
+SKU-0592,Household,B,5.83
+SKU-0593,Dry Goods,B,1.97
+SKU-0594,Dry Goods,B,12.5
+SKU-0595,Dry Goods,B,5.96
+SKU-0596,Dry Goods,C,2.18
+SKU-0597,Dry Goods,C,3.13
+SKU-0598,Frozen,B,8.04
+SKU-0599,Dry Goods,B,2.74
+SKU-0600,Household,C,16.0
+SKU-0601,Frozen,B,9.19
+SKU-0602,Beverages,C,10.04
+SKU-0603,Produce,C,4.78
+SKU-0604,Frozen,A,12.52
+SKU-0605,Frozen,C,3.73
+SKU-0606,Frozen,C,6.26
+SKU-0607,Produce,B,4.37
+SKU-0608,Beverages,C,8.42
+SKU-0609,Dry Goods,C,10.06
+SKU-0610,Beverages,C,6.63
+SKU-0611,Frozen,B,12.42
+SKU-0612,Household,B,6.15
+SKU-0613,Frozen,B,8.79
+SKU-0614,Beverages,C,5.27
+SKU-0615,Beverages,C,3.99
+SKU-0616,Produce,A,5.27
+SKU-0617,Household,A,6.57
+SKU-0618,Produce,A,1.84
+SKU-0619,Beverages,C,4.83
+SKU-0620,Produce,A,3.5
+SKU-0621,Frozen,C,6.85
+SKU-0622,Frozen,C,4.15
+SKU-0623,Beverages,B,6.2
+SKU-0624,Dry Goods,B,8.73
+SKU-0625,Frozen,B,12.49
+SKU-0626,Beverages,B,6.03
+SKU-0627,Produce,C,4.29
+SKU-0628,Produce,C,3.37
+SKU-0629,Produce,C,2.32
+SKU-0630,Household,B,4.12
+SKU-0631,Frozen,C,7.17
+SKU-0632,Household,A,7.71
+SKU-0633,Frozen,C,6.4
+SKU-0634,Dairy,B,7.18
+SKU-0635,Produce,C,4.2
+SKU-0636,Frozen,C,10.14
+SKU-0637,Frozen,B,7.43
+SKU-0638,Beverages,B,8.09
+SKU-0639,Dry Goods,B,2.05
+SKU-0640,Household,B,14.96
+SKU-0641,Dry Goods,B,6.0
+SKU-0642,Dairy,C,4.31
+SKU-0643,Dry Goods,C,4.26
+SKU-0644,Beverages,C,7.12
+SKU-0645,Produce,C,2.92
+SKU-0646,Dry Goods,C,2.95
+SKU-0647,Dairy,B,5.64
+SKU-0648,Frozen,C,8.81
+SKU-0649,Dry Goods,C,4.66
+SKU-0650,Household,C,25.71
+SKU-0651,Beverages,A,3.64
+SKU-0652,Dry Goods,A,3.89
+SKU-0653,Dry Goods,B,2.29
+SKU-0654,Dairy,C,4.82
+SKU-0655,Dairy,C,3.2
+SKU-0656,Frozen,B,9.77
+SKU-0657,Household,C,8.49
+SKU-0658,Frozen,B,4.66
+SKU-0659,Dry Goods,B,5.67
+SKU-0660,Dry Goods,C,4.81
+SKU-0661,Beverages,C,8.08
+SKU-0662,Frozen,B,12.27
+SKU-0663,Household,A,6.09
+SKU-0664,Dry Goods,B,2.77
+SKU-0665,Frozen,C,5.85
+SKU-0666,Frozen,C,3.95
+SKU-0667,Dry Goods,B,2.84
+SKU-0668,Dairy,C,6.76
+SKU-0669,Household,B,5.96
+SKU-0670,Dairy,C,2.59
+SKU-0671,Dairy,C,5.72
+SKU-0672,Dairy,B,3.44
+SKU-0673,Dry Goods,B,4.53
+SKU-0674,Frozen,A,7.87
+SKU-0675,Household,B,9.52
+SKU-0676,Dry Goods,B,3.33
+SKU-0677,Frozen,A,4.81
+SKU-0678,Household,C,7.01
+SKU-0679,Dry Goods,A,5.54
+SKU-0680,Household,A,12.89
+SKU-0681,Dairy,A,2.57
+SKU-0682,Frozen,C,8.44
+SKU-0683,Household,B,14.67
+SKU-0684,Dry Goods,C,7.46
+SKU-0685,Dry Goods,C,4.0
+SKU-0686,Dairy,C,7.2
+SKU-0687,Dry Goods,C,2.03
+SKU-0688,Dry Goods,B,1.22
+SKU-0689,Dry Goods,C,3.15
+SKU-0690,Beverages,B,4.12
+SKU-0691,Produce,C,2.05
+SKU-0692,Dry Goods,C,3.19
+SKU-0693,Beverages,C,8.96
+SKU-0694,Dairy,B,9.32
+SKU-0695,Household,A,5.59
+SKU-0696,Dry Goods,C,3.37
+SKU-0697,Dry Goods,C,2.87
+SKU-0698,Dry Goods,C,2.76
+SKU-0699,Beverages,C,2.52
+SKU-0700,Dairy,C,3.24
+SKU-0701,Dry Goods,C,10.2
+SKU-0702,Household,C,12.15
+SKU-0703,Produce,C,5.05
+SKU-0704,Produce,B,2.58
+SKU-0705,Dry Goods,A,10.87
+SKU-0706,Dry Goods,C,2.14
+SKU-0707,Frozen,B,21.39
+SKU-0708,Produce,C,2.82
+SKU-0709,Dairy,B,3.8
+SKU-0710,Dairy,B,9.95
+SKU-0711,Dry Goods,C,5.18
+SKU-0712,Produce,B,3.04
+SKU-0713,Beverages,B,3.8
+SKU-0714,Frozen,C,13.47
+SKU-0715,Household,B,6.14
+SKU-0716,Household,C,13.05
+SKU-0717,Produce,C,2.27
+SKU-0718,Dry Goods,B,5.86
+SKU-0719,Frozen,A,13.41
+SKU-0720,Beverages,C,6.12
+SKU-0721,Produce,B,10.41
+SKU-0722,Dry Goods,C,3.53
+SKU-0723,Household,B,17.13
+SKU-0724,Beverages,C,3.77
+SKU-0725,Dry Goods,C,5.71
+SKU-0726,Frozen,C,5.95
+SKU-0727,Produce,B,1.57
+SKU-0728,Household,A,11.9
+SKU-0729,Dry Goods,A,5.1
+SKU-0730,Produce,B,7.35
+SKU-0731,Dry Goods,B,3.51
+SKU-0732,Dry Goods,B,1.57
+SKU-0733,Dry Goods,B,5.12
+SKU-0734,Household,C,10.31
+SKU-0735,Frozen,B,5.06
+SKU-0736,Produce,C,3.01
+SKU-0737,Beverages,A,5.25
+SKU-0738,Household,C,22.86
+SKU-0739,Produce,C,1.33
+SKU-0740,Beverages,B,8.63
+SKU-0741,Dry Goods,B,2.93
+SKU-0742,Dry Goods,C,2.84
+SKU-0743,Beverages,C,9.29
+SKU-0744,Dairy,C,2.25
+SKU-0745,Produce,C,10.84
+SKU-0746,Produce,C,3.4
+SKU-0747,Household,C,8.01
+SKU-0748,Beverages,C,2.31
+SKU-0749,Produce,A,2.25
+SKU-0750,Frozen,A,8.1
+SKU-0751,Dry Goods,C,1.45
+SKU-0752,Beverages,C,9.8
+SKU-0753,Frozen,C,7.07
+SKU-0754,Dairy,C,9.03
+SKU-0755,Frozen,A,5.02
+SKU-0756,Frozen,C,6.93
+SKU-0757,Dry Goods,C,2.79
+SKU-0758,Frozen,B,4.44
+SKU-0759,Dry Goods,B,11.44
+SKU-0760,Frozen,C,6.06
+SKU-0761,Household,C,18.61
+SKU-0762,Household,B,12.43
+SKU-0763,Beverages,C,3.55
+SKU-0764,Frozen,B,5.11
+SKU-0765,Dairy,A,2.75
+SKU-0766,Dry Goods,C,8.27
+SKU-0767,Produce,B,5.43
+SKU-0768,Household,C,10.37
+SKU-0769,Frozen,C,7.87
+SKU-0770,Dry Goods,B,4.85
+SKU-0771,Dry Goods,C,3.99
+SKU-0772,Beverages,A,5.51
+SKU-0773,Produce,A,4.36
+SKU-0774,Household,C,3.86
+SKU-0775,Produce,B,3.27
+SKU-0776,Dry Goods,C,5.92
+SKU-0777,Dry Goods,C,7.8
+SKU-0778,Frozen,C,11.37
+SKU-0779,Dairy,C,4.04
+SKU-0780,Household,C,6.14
+SKU-0781,Dry Goods,B,4.07
+SKU-0782,Dry Goods,C,3.14
+SKU-0783,Dry Goods,C,1.55
+SKU-0784,Dry Goods,C,4.59
+SKU-0785,Beverages,A,5.61
+SKU-0786,Household,C,5.67
+SKU-0787,Frozen,B,12.1
+SKU-0788,Beverages,A,5.51
+SKU-0789,Beverages,C,6.76
+SKU-0790,Frozen,C,17.19
+SKU-0791,Beverages,C,12.48
+SKU-0792,Beverages,C,4.91
+SKU-0793,Household,B,11.83
+SKU-0794,Beverages,B,3.08
+SKU-0795,Dry Goods,A,3.55
+SKU-0796,Frozen,C,6.37
+SKU-0797,Dry Goods,C,7.12
+SKU-0798,Produce,B,2.23
+SKU-0799,Household,C,7.43
+SKU-0800,Beverages,B,9.73
+SKU-0801,Frozen,C,8.35
+SKU-0802,Beverages,B,3.52
+SKU-0803,Household,B,20.22
+SKU-0804,Beverages,C,3.3
+SKU-0805,Dry Goods,B,4.16
+SKU-0806,Produce,A,2.46
+SKU-0807,Dry Goods,B,3.45
+SKU-0808,Dry Goods,B,6.01
+SKU-0809,Produce,C,2.47
+SKU-0810,Dry Goods,C,2.36
+SKU-0811,Dairy,A,1.97
+SKU-0812,Frozen,C,4.98
+SKU-0813,Dry Goods,C,3.55
+SKU-0814,Dairy,C,5.24
+SKU-0815,Household,C,12.04
+SKU-0816,Beverages,C,3.48
+SKU-0817,Frozen,C,6.59
+SKU-0818,Frozen,C,5.11
+SKU-0819,Household,B,7.74
+SKU-0820,Dry Goods,C,1.11
+SKU-0821,Produce,A,6.0
+SKU-0822,Beverages,C,5.38
+SKU-0823,Frozen,B,5.67
+SKU-0824,Household,C,8.04
+SKU-0825,Household,C,12.81
+SKU-0826,Beverages,B,9.99
+SKU-0827,Dry Goods,B,3.77
+SKU-0828,Dry Goods,B,4.65
+SKU-0829,Dairy,C,1.57
+SKU-0830,Dairy,C,4.66
+SKU-0831,Beverages,C,8.46
+SKU-0832,Dry Goods,A,9.21
+SKU-0833,Household,C,15.11
+SKU-0834,Dairy,C,7.18
+SKU-0835,Beverages,C,3.97
+SKU-0836,Frozen,B,3.63
+SKU-0837,Frozen,B,7.24
+SKU-0838,Dry Goods,A,2.7
+SKU-0839,Household,C,6.71
+SKU-0840,Dry Goods,C,4.03
+SKU-0841,Dairy,B,3.55
+SKU-0842,Dry Goods,C,7.01
+SKU-0843,Produce,B,3.06
+SKU-0844,Dry Goods,C,6.42
+SKU-0845,Dry Goods,B,4.24
+SKU-0846,Dairy,C,1.59
+SKU-0847,Household,C,5.01
+SKU-0848,Dry Goods,C,11.43
+SKU-0849,Dairy,B,2.05
+SKU-0850,Dry Goods,B,10.43
+SKU-0851,Household,C,9.3
+SKU-0852,Beverages,A,2.06
+SKU-0853,Frozen,C,2.89
+SKU-0854,Produce,A,9.71
+SKU-0855,Beverages,C,10.43
+SKU-0856,Produce,C,4.28
+SKU-0857,Beverages,C,16.57
+SKU-0858,Frozen,C,8.88
+SKU-0859,Produce,A,2.34
+SKU-0860,Dairy,B,7.89
+SKU-0861,Beverages,A,8.11
+SKU-0862,Dry Goods,C,2.5
+SKU-0863,Beverages,C,6.05
+SKU-0864,Frozen,C,5.11
+SKU-0865,Dry Goods,B,2.66
+SKU-0866,Produce,C,2.23
+SKU-0867,Dry Goods,C,3.43
+SKU-0868,Produce,C,2.41
+SKU-0869,Household,B,19.34
+SKU-0870,Dry Goods,C,8.95
+SKU-0871,Household,A,14.0
+SKU-0872,Dry Goods,C,4.52
+SKU-0873,Produce,C,2.44
+SKU-0874,Dry Goods,B,6.6
+SKU-0875,Beverages,C,9.79
+SKU-0876,Dry Goods,A,6.39
+SKU-0877,Beverages,B,10.18
+SKU-0878,Produce,B,3.59
+SKU-0879,Dry Goods,C,4.97
+SKU-0880,Frozen,B,4.3
+SKU-0881,Beverages,B,6.71
+SKU-0882,Household,B,4.88
+SKU-0883,Dry Goods,C,5.97
+SKU-0884,Dry Goods,C,6.6
+SKU-0885,Dairy,A,3.32
+SKU-0886,Dry Goods,A,6.08
+SKU-0887,Beverages,A,5.54
+SKU-0888,Household,C,9.16
+SKU-0889,Dry Goods,C,1.97
+SKU-0890,Household,C,10.37
+SKU-0891,Beverages,C,2.82
+SKU-0892,Produce,A,8.66
+SKU-0893,Dry Goods,B,5.99
+SKU-0894,Frozen,A,27.65
+SKU-0895,Dairy,C,5.96
+SKU-0896,Frozen,C,13.79
+SKU-0897,Frozen,A,15.31
+SKU-0898,Frozen,A,8.4
+SKU-0899,Dry Goods,B,8.63
+SKU-0900,Dairy,B,5.43
+SKU-0901,Frozen,C,10.89
+SKU-0902,Household,C,26.87
+SKU-0903,Dairy,C,7.03
+SKU-0904,Frozen,C,3.34
+SKU-0905,Produce,C,1.99
+SKU-0906,Frozen,C,11.24
+SKU-0907,Beverages,B,8.85
+SKU-0908,Beverages,C,4.35
+SKU-0909,Beverages,B,3.48
+SKU-0910,Beverages,A,3.64
+SKU-0911,Household,A,11.29
+SKU-0912,Dry Goods,C,6.74
+SKU-0913,Frozen,B,3.65
+SKU-0914,Dry Goods,C,3.59
+SKU-0915,Household,C,3.53
+SKU-0916,Dry Goods,C,4.15
+SKU-0917,Beverages,B,3.57
+SKU-0918,Household,C,5.89
+SKU-0919,Dairy,C,11.65
+SKU-0920,Frozen,B,4.34
+SKU-0921,Dry Goods,B,2.05
+SKU-0922,Beverages,C,3.17
+SKU-0923,Produce,A,3.2
+SKU-0924,Dairy,B,1.83
+SKU-0925,Produce,A,2.42
+SKU-0926,Dry Goods,C,2.03
+SKU-0927,Dry Goods,A,2.27
+SKU-0928,Beverages,B,5.09
+SKU-0929,Household,C,11.34
+SKU-0930,Dry Goods,A,1.84
+SKU-0931,Household,A,8.06
+SKU-0932,Beverages,B,6.71
+SKU-0933,Dry Goods,B,1.36
+SKU-0934,Produce,B,2.16
+SKU-0935,Dairy,C,2.58
+SKU-0936,Household,B,6.48
+SKU-0937,Frozen,B,4.5
+SKU-0938,Dairy,A,3.21
+SKU-0939,Dry Goods,B,8.46
+SKU-0940,Household,C,9.54
+SKU-0941,Dry Goods,C,5.4
+SKU-0942,Beverages,C,11.4
+SKU-0943,Produce,C,4.46
+SKU-0944,Dairy,C,2.63
+SKU-0945,Household,C,21.73
+SKU-0946,Beverages,C,5.22
+SKU-0947,Dairy,A,7.91
+SKU-0948,Beverages,A,9.26
+SKU-0949,Dry Goods,C,2.7
+SKU-0950,Beverages,C,4.32
+SKU-0951,Dry Goods,B,8.74
+SKU-0952,Dry Goods,B,1.94
+SKU-0953,Produce,B,4.08
+SKU-0954,Dairy,A,4.86
+SKU-0955,Beverages,C,4.35
+SKU-0956,Beverages,A,3.95
+SKU-0957,Frozen,A,3.3
+SKU-0958,Frozen,B,11.67
+SKU-0959,Beverages,C,3.07
+SKU-0960,Beverages,C,5.39
+SKU-0961,Household,C,15.28
+SKU-0962,Beverages,B,2.2
+SKU-0963,Frozen,B,15.09
+SKU-0964,Frozen,A,6.12
+SKU-0965,Dairy,B,7.33
+SKU-0966,Beverages,A,5.09
+SKU-0967,Dry Goods,A,2.64
+SKU-0968,Household,B,9.05
+SKU-0969,Household,C,8.61
+SKU-0970,Dairy,C,3.27
+SKU-0971,Dairy,B,1.74
+SKU-0972,Dry Goods,A,2.45
+SKU-0973,Frozen,C,10.19
+SKU-0974,Frozen,A,11.65
+SKU-0975,Dairy,C,4.86
+SKU-0976,Household,A,8.73
+SKU-0977,Produce,B,2.33
+SKU-0978,Produce,A,1.28
+SKU-0979,Dairy,A,1.16
+SKU-0980,Produce,C,1.31
+SKU-0981,Household,A,18.46
+SKU-0982,Produce,B,2.69
+SKU-0983,Produce,A,4.5
+SKU-0984,Produce,C,4.94
+SKU-0985,Household,C,9.77
+SKU-0986,Produce,A,3.56
+SKU-0987,Dry Goods,C,2.71
+SKU-0988,Dairy,C,3.16
+SKU-0989,Dry Goods,C,6.53
+SKU-0990,Dry Goods,B,3.05
+SKU-0991,Beverages,A,8.01
+SKU-0992,Frozen,C,14.3
+SKU-0993,Beverages,A,7.29
+SKU-0994,Dairy,B,7.21
+SKU-0995,Dry Goods,C,7.92
+SKU-0996,Household,C,16.29
+SKU-0997,Household,B,7.15
+SKU-0998,Household,C,4.92
+SKU-0999,Dry Goods,C,5.75
+SKU-1000,Beverages,B,2.59
+SKU-1001,Dairy,C,5.25
+SKU-1002,Beverages,C,16.67
+SKU-1003,Household,B,9.66
+SKU-1004,Produce,B,5.2
+SKU-1005,Beverages,C,7.76
+SKU-1006,Dry Goods,B,2.15
+SKU-1007,Beverages,B,6.81
+SKU-1008,Dry Goods,B,3.34
+SKU-1009,Beverages,C,2.69
+SKU-1010,Dry Goods,B,3.53
+SKU-1011,Produce,C,1.05
+SKU-1012,Dairy,C,2.43
+SKU-1013,Beverages,A,5.25
+SKU-1014,Dairy,C,12.33
+SKU-1015,Beverages,C,6.89
+SKU-1016,Dry Goods,C,2.29
+SKU-1017,Dry Goods,C,2.27
+SKU-1018,Household,A,12.86
+SKU-1019,Frozen,B,11.96
+SKU-1020,Dairy,B,2.23
+SKU-1021,Household,A,4.49
+SKU-1022,Beverages,C,4.7
+SKU-1023,Beverages,C,1.69
+SKU-1024,Frozen,B,7.59
+SKU-1025,Frozen,C,18.72
+SKU-1026,Dry Goods,C,3.64
+SKU-1027,Beverages,A,8.34
+SKU-1028,Household,A,6.44
+SKU-1029,Dry Goods,C,3.73
+SKU-1030,Frozen,C,7.01
+SKU-1031,Frozen,B,5.16
+SKU-1032,Beverages,A,6.8
+SKU-1033,Dry Goods,B,4.08
+SKU-1034,Beverages,A,6.2
+SKU-1035,Produce,A,1.51
+SKU-1036,Dairy,B,12.73
+SKU-1037,Frozen,C,9.52
+SKU-1038,Dry Goods,B,4.97
+SKU-1039,Produce,A,5.9
+SKU-1040,Frozen,C,5.46
+SKU-1041,Dry Goods,B,3.31
+SKU-1042,Dry Goods,C,4.94
+SKU-1043,Dry Goods,C,11.29
+SKU-1044,Household,C,14.85
+SKU-1045,Beverages,C,1.46
+SKU-1046,Dry Goods,C,5.08
+SKU-1047,Beverages,C,3.01
+SKU-1048,Beverages,C,8.62
+SKU-1049,Dry Goods,C,3.37
+SKU-1050,Beverages,C,3.39
+SKU-1051,Household,C,12.13
+SKU-1052,Dry Goods,B,3.96
+SKU-1053,Household,B,17.67
+SKU-1054,Dry Goods,A,3.22
+SKU-1055,Produce,C,2.54
+SKU-1056,Dry Goods,A,4.48
+SKU-1057,Dry Goods,C,2.78
+SKU-1058,Household,C,8.07
+SKU-1059,Beverages,B,3.45
+SKU-1060,Frozen,C,25.87
+SKU-1061,Household,C,14.0
+SKU-1062,Dry Goods,B,2.49
+SKU-1063,Household,C,8.58
+SKU-1064,Household,C,10.58
+SKU-1065,Frozen,A,6.61
+SKU-1066,Dry Goods,C,4.12
+SKU-1067,Dry Goods,C,1.97
+SKU-1068,Dry Goods,C,5.0
+SKU-1069,Dairy,C,6.93
+SKU-1070,Dry Goods,C,2.95
+SKU-1071,Dry Goods,A,2.44
+SKU-1072,Dry Goods,B,3.15
+SKU-1073,Household,B,8.13
+SKU-1074,Frozen,C,9.24
+SKU-1075,Dry Goods,C,5.42
+SKU-1076,Dry Goods,C,1.97
+SKU-1077,Frozen,B,12.07
+SKU-1078,Dairy,C,6.5
+SKU-1079,Dry Goods,A,4.44
+SKU-1080,Beverages,B,4.21
+SKU-1081,Dry Goods,B,3.82
+SKU-1082,Household,A,4.36
+SKU-1083,Household,B,10.45
+SKU-1084,Dairy,B,2.89
+SKU-1085,Household,B,10.99
+SKU-1086,Dry Goods,A,8.86
+SKU-1087,Beverages,B,11.21
+SKU-1088,Produce,C,3.54
+SKU-1089,Beverages,B,5.74
+SKU-1090,Dry Goods,B,2.37
+SKU-1091,Dry Goods,C,1.44
+SKU-1092,Beverages,B,8.31
+SKU-1093,Beverages,C,11.33
+SKU-1094,Beverages,C,3.5
+SKU-1095,Dry Goods,B,6.55
+SKU-1096,Household,B,4.96
+SKU-1097,Household,B,8.24
+SKU-1098,Dry Goods,B,5.53
+SKU-1099,Household,C,5.63
+SKU-1100,Dry Goods,B,7.14
+SKU-1101,Produce,C,5.48
+SKU-1102,Dry Goods,B,5.09
+SKU-1103,Household,A,6.11
+SKU-1104,Beverages,C,6.83
+SKU-1105,Dry Goods,C,3.26
+SKU-1106,Produce,C,2.09
+SKU-1107,Dry Goods,C,4.74
+SKU-1108,Dry Goods,A,5.43
+SKU-1109,Dairy,B,2.27
+SKU-1110,Frozen,C,14.53
+SKU-1111,Frozen,C,5.43
+SKU-1112,Produce,A,2.22
+SKU-1113,Dry Goods,C,7.81
+SKU-1114,Dairy,C,4.24
+SKU-1115,Household,B,10.54
+SKU-1116,Dry Goods,A,1.46
+SKU-1117,Household,C,10.83
+SKU-1118,Dairy,C,3.71
+SKU-1119,Beverages,C,3.79
+SKU-1120,Household,C,7.26
+SKU-1121,Household,C,3.7
+SKU-1122,Produce,B,2.88
+SKU-1123,Dry Goods,A,6.61
+SKU-1124,Frozen,C,7.5
+SKU-1125,Produce,C,4.94
+SKU-1126,Dry Goods,C,3.9
+SKU-1127,Household,A,5.32
+SKU-1128,Dry Goods,C,2.35
+SKU-1129,Dry Goods,C,1.66
+SKU-1130,Household,A,8.54
+SKU-1131,Dairy,C,3.33
+SKU-1132,Dry Goods,C,3.81
+SKU-1133,Dry Goods,A,3.8
+SKU-1134,Produce,C,1.92
+SKU-1135,Dry Goods,C,4.17
+SKU-1136,Household,C,9.5
+SKU-1137,Dry Goods,C,5.0
+SKU-1138,Produce,C,3.68
+SKU-1139,Frozen,C,7.01
+SKU-1140,Frozen,B,7.88
+SKU-1141,Household,C,26.4
+SKU-1142,Dry Goods,A,3.56
+SKU-1143,Household,B,9.35
+SKU-1144,Dry Goods,B,2.43
+SKU-1145,Beverages,C,7.84
+SKU-1146,Dry Goods,C,3.97
+SKU-1147,Dry Goods,B,5.42
+SKU-1148,Household,C,9.33
+SKU-1149,Dry Goods,C,4.7
+SKU-1150,Dairy,B,1.68
+SKU-1151,Produce,C,6.81
+SKU-1152,Dry Goods,A,3.06
+SKU-1153,Household,B,12.54
+SKU-1154,Dry Goods,C,3.34
+SKU-1155,Dry Goods,C,4.75
+SKU-1156,Dry Goods,C,4.41
+SKU-1157,Dry Goods,C,8.32
+SKU-1158,Beverages,C,5.71
+SKU-1159,Dry Goods,C,1.23
+SKU-1160,Beverages,C,3.43
+SKU-1161,Household,B,20.33
+SKU-1162,Household,A,14.64
+SKU-1163,Dry Goods,C,1.32
+SKU-1164,Dry Goods,A,7.02
+SKU-1165,Dry Goods,C,3.19
+SKU-1166,Beverages,B,2.06
+SKU-1167,Dry Goods,C,3.33
+SKU-1168,Household,C,8.53
+SKU-1169,Produce,A,2.57
+SKU-1170,Dry Goods,C,2.66
+SKU-1171,Dry Goods,A,7.68
+SKU-1172,Dry Goods,B,4.82
+SKU-1173,Beverages,B,7.35
+SKU-1174,Beverages,B,4.56
+SKU-1175,Dry Goods,B,7.84
+SKU-1176,Dry Goods,C,3.25
+SKU-1177,Beverages,B,5.72
+SKU-1178,Household,B,10.71
+SKU-1179,Produce,C,1.58
+SKU-1180,Household,C,10.93
+SKU-1181,Dry Goods,C,2.98
+SKU-1182,Dry Goods,A,1.62
+SKU-1183,Household,C,14.21
+SKU-1184,Beverages,C,7.13
+SKU-1185,Household,C,10.54
+SKU-1186,Frozen,A,7.71
+SKU-1187,Dry Goods,C,9.42
+SKU-1188,Dairy,A,1.46
+SKU-1189,Beverages,A,2.04
+SKU-1190,Dairy,C,3.12
+SKU-1191,Beverages,B,8.78
+SKU-1192,Dairy,B,11.94
+SKU-1193,Beverages,B,5.58
+SKU-1194,Household,C,11.03
+SKU-1195,Dry Goods,B,7.45
+SKU-1196,Dairy,C,2.76
+SKU-1197,Household,A,12.21
+SKU-1198,Dairy,C,2.51
+SKU-1199,Beverages,B,3.91
+SKU-1200,Produce,B,3.36
