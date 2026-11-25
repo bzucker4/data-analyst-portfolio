@@ -22,8 +22,19 @@ Portfolio case studies using SQL, Python, CSV datasets, and interactive visualiz
 - [Results summary](./01-warehouse-order-aging/results.md)
 
 ### 02 · Cycle Count Accuracy
-- [Dataset](./02-cycle-count-accuracy/data/cycle_counts.csv)
-- [SKU reference data](./02-cycle-count-accuracy/data/skus.csv)
+
+**Resume-ready summary:** Analyzed 5,414 simulated cycle counts across 1,200 SKUs with SQL and Python to measure inventory record accuracy. Broke accuracy and dollar variance down by category, shift, counter, ABC class, and month, checked whether the shift gap was caused by category mix, and recommended root-cause and process fixes.
+
+**Selected findings from the simulated dataset:**
+- Exact-match accuracy: **79.6%**; shortages outnumbered overages **14.7% to 5.7%**, for a net variance of **-$38,338**.
+- Produce (**57.8%**) and Dairy (**63.7%**) were the least accurate categories; Produce and Frozen carried **45%** of dollar variance.
+- Night shift ran **74.5%** vs **82.2%** on days, and the gap held within categories.
+- A items were counted 6x as often as C items but were no more accurate.
+
+- [Project overview, findings, and recommendations](./02-cycle-count-accuracy/README.md)
+- [SQL queries](./02-cycle-count-accuracy/queries.sql)
+- [Python analysis](./02-cycle-count-accuracy/analysis.py)
+- [Results summary](./02-cycle-count-accuracy/results.md)
 
 ### 03 · Vehicle Lot Dwell Time
 - [Vehicle dataset](./03-vehicle-lot-dwell-time/data/vehicles.csv)
